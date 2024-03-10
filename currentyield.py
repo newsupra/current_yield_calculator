@@ -12,7 +12,7 @@ def cy_calc():
     print('''
     This is your current yield. Move the decimal point two spaces to the right to have your percentage:
     ''')
-    print(annual_amount/stock_value)
+    print(annual_amount/stock_value * 100)
 while restart == "y":
     cy_calc()
     continue_question = input('''
